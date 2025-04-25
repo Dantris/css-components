@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section>
+        <div class="wrapper">
+            <div class="container">
+                <div class="left">
+                    <h1>Choose the amount of storage <br />that's right for you.</h1>
+
+                    <div class="form">
+                        <div class="form__group field">
+                            <input type="text" class="form__field" placeholder="Full name" name="name" id="name"
+                                required />
+                            <label for="name" class="form__label">Full name</label>
+                        </div>
+
+                        <div class="form__group field">
+                            <input type="email" class="form__field" placeholder="Email" name="email" id="email"
+                                required />
+                            <label for="email" class="form__label">Email</label>
+                        </div>
+
+                        <div class="form__group field">
+                            <input type="password" class="form__field" placeholder="Password" name="password"
+                                id="password" required />
+                            <label for="password" class="form__label">Password</label>
+                        </div>
+
+                        <div class="form__group field">
+                            <input type="text" class="form__field" placeholder="Card number" name="card" id="card"
+                                required />
+                            <label for="card" class="form__label">Card number</label>
+                        </div>
+
+                        <button class="submit-btn">Create Account</button>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <p>Bill yearly <input type="radio" name="billing" /> Bill monthly <input type="radio"
+                            name="billing" /></p>
+
+                    <div class="card selected">
+                        <div>
+                            <strong>ESSENTIAL</strong><br>
+                            <span style="font-size: 1.5rem;">200 <strong>GB</strong> of storage</span>
+                        </div>
+                        <div><strong>$10 / mo</strong></div>
+                    </div>
+
+                    <div class="card">
+                        <div>
+                            <strong>PRO</strong><br>
+                            <span style="font-size: 1.5rem;">1 <strong>TB</strong> of storage</span>
+                        </div>
+                        <div><strong>$20 / mo</strong></div>
+                    </div>
+
+                    <div class="card">
+                        <div>
+                            <strong>PREMIUM</strong><br>
+                            <span style="font-size: 1.5rem;">2 <strong>TB</strong> of storage</span>
+                        </div>
+                        <div><strong>$40 / mo</strong></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
